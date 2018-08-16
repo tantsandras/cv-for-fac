@@ -1,76 +1,65 @@
-
 body {
- 
-  height: 100%;
   background: #ffffff;
   margin: 0;
   padding-bottom: 30px;
-  font-size:62.5%;
+  font-size: 62.5%;
 }
+
 a {
   color: #000000;
 }
-#container {
-  width: 900px;
-  margin: 0;
-  padding: 0;
-  background: #dddddd;
-}
+
 #header {
-  width: 100%;
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
-  border: 0;
   background: #abc4ab;
 }
- 
+
 #header h1 {
-  font-family: 'Bungee Shade', cursive;
+  font-family: "Bungee Shade", cursive;
   text-align: center;
   font-size: 5vw;
-  line-height: 1;   
+  line-height: 1;
   margin: 0;
   padding-left: 80px;
   padding-right: 80px;
-  display: inline-block;
   align-self: flex-end;
   transform: translateY(30%);
 }
-img {
+
+#header img {
   object-fit: cover;
-  height: 675px; 
-  width: 1000px; 
-  max-width: 340px; 
-  max-height: 340px;
+  height: 675px;
+  width: 1000px;
+  max-width: 100%;
+  max-height: 100%;
 }
+
 div.rounded {
-  border-radius:50%;
+  border-radius: 50%;
   overflow: hidden;
-  height: 340px; 
+  height: 340px;
   width: 340px;
-  margin-top: 50px; 
+  margin-top: 50px;
   margin-bottom: 30px;
-  vertical-align: middle;
-  display: inline-block;
   border: 5px double #ffffff;
 }
+
 #content {
-  width: 100%;
   height: 100%;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 50px;
-  border: 0;
+  padding-bottom: 60px;
   float: left;
   background: #ffffff;
 }
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 4%;
 }
+
 .flex-child {
   box-sizing: border-box;
   flex-basis: 50%;
@@ -78,11 +67,12 @@ div.rounded {
   padding-left: 3vw;
   padding-right: 3vw;
 }
+
 .material-icons {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
-  font-size: 35px; 
+  font-size: 35px;
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -92,32 +82,34 @@ div.rounded {
   direction: ltr;
   vertical-align: middle;
 }
+
 #content h2 {
-  font-family: 'Bungee Shade', cursive;
+  font-family: "Bungee Shade", cursive;
   font-size: 30px;
   padding-top: 10px;
   padding-left: 20px;
   margin: 0;
   border-left: 5px double #69bebe;
-  
 }
+
 ul#myList {
-  list-style-type:circle;
-  font-family: 'Comfortaa', cursive;
+  list-style-type: circle;
+  font-family: "Comfortaa", cursive;
   font-size: 18px;
   line-height: 30px;
-  
 }
+
 #content p {
-  font-family: 'Comfortaa', cursive;
-  font-size: 18px; 
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
   padding-left: 30px;
   line-height: 30px;
-} 
+}
+
 #footer {
   position: fixed;
   margin: 0;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
   height: 40px;
   padding-top: 8px;
@@ -125,18 +117,20 @@ ul#myList {
   border: 0;
   background: #ffffff;
 }
+
 #footer h3 {
-  font-family: 'Comfortaa', cursive;
-  font-size: 18px; 
-  text-align: center; 
-  line-height: 1;    
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1;
+  vertical-align: middle;
   padding-bottom: 5px;
-  display: inline-block;
 }
+
 @media only screen and (max-width: 800px) {
-  
   #header h1 {
-    font-size: 30px; 
+    font-size: 30px;
   }
   .flex-child {
     flex-basis: 100%;
@@ -155,6 +149,6 @@ ul#myList {
     font-size: 16px;
   }
   #footer h3 {
-    font-size: 14px; 
+    font-size: 14px;
   }
 }
