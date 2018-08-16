@@ -125,7 +125,6 @@ ul#myList {
   text-align: center;
   line-height: 1;
   vertical-align: middle;
-  padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 800px) {
